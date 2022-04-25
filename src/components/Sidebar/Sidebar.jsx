@@ -6,7 +6,6 @@ import { SidebarData } from '../Data/Data';
 import {UilSignOutAlt} from '@iconscout/react-unicons'
 const Sidebar = () => {
      const [selected, setSelected] = useState(0);
-
   return (
       <div className="Sidebar">
           {/* logo */}
