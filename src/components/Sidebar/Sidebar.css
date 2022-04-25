@@ -68,3 +68,25 @@
     bottom: 2.3rem;
     width: 100%;
 }
+
+.active {
+    background: var(--activeItem);
+    margin-left: 0;
+  }
+  .active::before {
+    content: "";
+    width: 8px;
+    height: 100%;
+    background: var(--pink);
+    margin-right: calc(1rem - 8px);
+  }
+
+  /* Tablets */
+@media screen and (max-width: 1200px) {
+    .menuItem>span{
+      display: none;
+    }
+    .logo{
+      display: none;
+    }
+  }
