@@ -1,0 +1,141 @@
+body{
+    background: #fcfcfc;
+}
+footer{
+    /* position: relative; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width:100vw;
+    /* width: 60%; */
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+    background-color: #fff;
+    margin-top: -10rem;
+}
+.buddy__footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bubby__footer-list .list-text{
+    margin: 0 10px;
+}
+.bubby__footer-list a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.8rem;
+}
+.bubby__footer-list a:hover{
+    color: #76ED;
+}
+
+.bubby__footer-list {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 3rem; */
+    /* margin-top:  3rem; */
+}
+
+.splash{
+    width: 20rem;
+    margin: 0;
+    /* height: 7rem; */
+}
+.buddysafe__footer-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-text-img{
+    margin: 0;
+}
+.stay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #000;
+}
+
+
+.footer-bottom{
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+    color:#111;
+    margin-top: -5rem;
+}
+.footer-bottom p{
+    font-size: 11px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.footer-icon{
+    text-align: center;
+}
+.footer-icon .share{
+    /* padding:1rem 0; */
+}
+
+.footer-icon .share a{
+    font-size: 2rem;
+    margin:3rem 1.4rem;
+}
+
+.facebook{
+    color: #4267B2;
+}
+.twitter{
+    color: #1DA1F2;
+}
+.instagram{
+    color: transparent;
+    background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+}
+
+@media (max-width:991px){
+    footer{
+        /* margin-top: 4rem; */
+    }
+
+}
+
+@media (max-width:550px){
+    .bubby__footer-list a{
+        text-decoration: none;
+        color: #000;
+        font-size: 1rem;
+    }
+    footer{
+        margin-top: 0.6rem;
+        font-weight: 700;
+    }
+    .bubby__footer-list .list-text{
+        margin: 0 4px;
+    }
+    .bubby__footer-list{
+        margin-top: 0rem;
+    }
+    .footer-bottom{
+        margin-top: -5rem;
+    }
+}
+

@@ -1,0 +1,17 @@
+.team-member > img {
+    width: 200px;
+  }
+  .team-member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .team-member > h4 {
+    color: #5d5b5d;
+    font-weight: 700;
+    margin-top: 5px;
+  }
+  .team-member > p {
+    color: #5d5b5d;
+  }

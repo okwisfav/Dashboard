@@ -1,0 +1,71 @@
+.setting__hero{
+    background-color: #F0F2F4;
+    text-align: center;
+    padding: 4.5rem;
+}
+
+.setting__hero h2{
+    font-size: 2.4rem;
+    /* margin-top: 2rem; */
+    text-align: center;
+    align-self: center;
+    line-height: 40px;
+    margin-bottom: .5rem;
+}
+
+.setting__hero p{
+    text-align: center;
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.setting__text-area{
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+}
+
+.setting__text-area p{
+    text-align: left;
+    margin-bottom: .7rem;
+    
+}
+
+.setting__text-area span{
+    font-weight: bold;
+}
+
+.setting__text-area ul li{
+    width: 92%;
+    margin: auto;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+.setting__text-area p:nth-last-child(1){
+    margin-top: 1rem;
+    font-size: 17px;
+    text-align: left;
+    /* line-height: 40px; */
+    margin-bottom: .5rem;
+}
+
+
+.banned{
+    width: 80%;
+    margin: auto;
+}
+
+.banned h1{
+    font-size: 25px;
+    font-style: italic;
+}
+
+.banned p{
+    font-size: 15px;
+    text-align: left;
+    line-height: 25px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}

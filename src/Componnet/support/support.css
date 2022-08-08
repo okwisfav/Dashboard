@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(255,255,255);
+    font-family: 'Manrope', sans-serif;
+}
+
+.support-text{
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 44px;
+    margin-bottom: 70px;
+    margin-top: 5rem;
+    padding-left: 12px;
+    text-align: center;
+}
+
+.services{
+   background-color: rgba(46,46,46, .3);
+   text-align: center;
+ }
+
+.services h1{
+      display: inline-block;
+      text-transform: uppercase;
+      border-bottom: 4px solid #40196D;
+      font-size: 20px;
+      padding-bottom: 10px;
+      margin-top: 5rem;
+      margin-bottom: 3rem;
+   }
+   .cen{
+      max-width: 1200px;
+      margin: auto;
+      overflow: hidden;
+      padding: 20px;
+   }
+  .service{
+      display: inline-block;
+      width: calc(100% / 3);
+      margin: 0 -2px;
+      padding: 20px;
+      box-sizing: border-box;
+      cursor: pointer;
+      transition: 0.4s;
+    }
+    .service:hover{
+      background: #ddd;
+    }
+    .service i{
+      color: #40196D;
+      font-size: 34px;
+      margin-bottom: 30px;
+    }
+    .service h2{
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: 500;
+      margin: 0;
+    }
+    .service p{
+      color: gray;
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+
+    @media screen and (max-width: 800px) {
+      .service{
+        width: 50%;
+      }
+    }
+    @media screen and (max-width: 500px) {
+      .service{
+        width: 100%;
+      }
+    }
+
+  .support{
+    background: linear-gradient(45deg,#fd267a,#ff6036);
+}
+
+.support .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    padding-top: 3rem;
+}
+
+.support .row .image{
+    flex:1 1 45rem;
+    text-align: center;
+}
+
+.support .row .image img{
+    width:85%;
+    border-radius: .5rem;
+}
+
+.support .row .content{
+    flex:1 1 45rem;
+    padding: 2.5rem;
+}
+
+.support .row .content h3{
+    font-size: 2.7rem;
+    color:#fff;
+    text-transform: cap;
+}
+
+.support .row .content p{
+    font-size: 1.3rem;
+    color: #eee;
+    padding: 1rem 0;
+    font-weight: 700;
+    line-height: 31px;
+}
+
+.support .row .content p i{
+    padding-right: .5rem;
+    color:#fff;
+}
+
+.list-btn{
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  margin-bottom: 4rem;
+  margin-top: 1.1rem;
+}
+
+.list-btn p{
+  font-size: 14px;
+  align-items: center;
+  /* margin: 2rem; */
+  display: inline-block;
+  background-color: #D4455E;
+  border-radius: 5rem;
+  transition: all .3s linear;
+  padding:.8rem 1rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+@media (max-width:768px){
+  .list-btn p{
+    margin: 2rem;
+    font-size: 13px;
+    margin-bottom: 0rem;
+  }
+  .list-btn{
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px){
+    .list-btn {
+      display: flex;
+      flex-wrap: wrap;
+    }
+}

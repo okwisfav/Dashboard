@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(255,255,255);
+    font-family: 'Manrope', sans-serif;
+}
+
+.bubby__about{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.bubby__about h1{
+    font-size: 3.4rem;
+    font-weight: 900;
+    color: #40196D;
+    margin-top: 10rem;
+}
+.bubby__about-text{
+    width: 80%;
+    margin: auto;
+    margin-top: 6rem;
+    text-align: left;
+   
+}
+.bubby__about-text p{
+    font-size: 1rem;
+    line-height: 30px;
+}
+.bubby__about-text h1{
+    margin-bottom: 3rem;
+    color: #40196D;
+    font-weight: bolder;
+}
+
+.bubby__about-text p:nth-last-child(1){
+     margin-top: 2.3rem;
+}
+
+.bubby__about-text p:nth-last-child(2){
+    margin-top: 2.3rem;
+}
+.bubby__about-text p:nth-last-child(3){
+    margin-top: 2.3rem;
+}
+.bubby__about-text p:nth-last-child(4){
+    margin-top: 2.3rem;
+}
+.bubby__about-text p:nth-last-child(5){
+    margin-top: 2.3rem;
+}
+.bubby__about-text p:nth-last-child(6){
+    margin-top: 2.3rem;
+}
+.bubby__about__text-one{
+    width: 80%;
+    margin: auto;
+    margin-top: 6rem;
+    text-align: left;
+}
+.bubby__about__text-one h1{
+    margin-bottom: 3rem;
+    color: #40196D;
+    font-weight: bolder;
+}
+.bubby__about__text-one p{
+    font-size: 1rem;
+    line-height: 30px;
+}
+
+.bubby__bolder__text{
+    font-weight: bolder;
+}
+/* responsiveness */
+@media (max-width:768px){
+    .bubby__about-text{
+        width: 100%;
+        padding: 1rem;
+    }
+    .bubby__about-text p{
+        line-height: 30px;
+         padding: 1rem
+    }
+    .bubby__about-text h1{
+        padding: 1rem;
+    }
+    .bubby__about__text-one{
+        width: 100%;
+        margin:0rem;
+    }
+    .bubby__about__text-one h1{
+        padding: 1rem;
+    }
+    .bubby__about__text-one p{
+        line-height: 30px;
+        padding: 1rem
+    }
+}
+

@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255,255,255);
+    font-family: 'Manrope', sans-serif;
+}
+
+.bubby__about-us{
+    /* padding: 4rem 6rem; */
+    padding-bottom: 5rem;
+}
+
+.bubby__about__header{
+    width: 100%;
+    /* margin-bottom: 5rem; */
+     align-items: center;
+}
+
+.bubby__about__header h1{
+    font-size: 3rem;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #40196D;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.bubby__about__header p{
+    font-size: 1.3rem;
+    line-height: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.bubby__about__header p:nth-last-child(2){
+     margin-top: 2rem;
+}
+
+.bubby__about__header p:nth-last-child(1){
+    font-size: .9;
+    font-weight: 900;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.bubby__about_section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10rem;
+}
+
+.bubby__about_section-color{
+    background-color: #40196D;
+    padding: 2rem;
+}
+
+.bubby__about_section-feature {
+    display: flex;
+}
+
+/* Customizing feature component as per needs */
+.bubby__about_section-feature .bubby__features-container__feature {
+    margin: 0;
+}
+
+/* Customizing feature component as per needs */
+.bubby__about_section-feature .bubby__features-container_feature-text {
+    max-width: 800px;
+}
+
+.bubby__about_section-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0 2rem;
+}
+
+.bubby__about_section-heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 900;
+    font-family: inherit;
+    max-width: 510px;
+    color: #fff;
+}
+
+.bubby__about_section-heading p {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.bubby__about_section-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+/* Customizing feature component as per needs */
+.bubby__about_section-container .bubby__features-container__feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+/* Customizing feature component as per needs */
+.bubby__about_section-container .bubby__features-container_feature-text {
+    margin-top: 0.5rem;
+}
+
+.bubby__about-section{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+}
+
+.bubby__about-section-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.bubby__about-section img {
+    width: 100%;
+    height: 100%;
+}
+
+.bubby__about-section-content {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.bubby__about-section-content h4 {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #40196D;
+}
+
+.bubby__about-section-content h4:last-child {
+    color: #ff8A71;
+}
+
+.bubby__about-section-content h1 {
+    font-family: inherit;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    margin: 1rem 0;
+    width: 80%;
+    color: #40196D;
+}
+
+.bubby__about-section-content p {
+    color: #40196D;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 950px) {
+    .bubby__about-section {
+        flex-direction: column;
+    }
+
+    .bubby__about-section-image {
+        margin: 1rem 0;
+    }
+
+    .bubby__about-section-image img {
+        /* width: unset; */
+        height: unset;
+    }
+
+    .bubby__about-section-content {
+        margin-top: 2rem;
+        padding: 3rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .bubby__about-section-image img {
+        width: 100%;
+        height: 100%;
+    }
+    .bubby__about-us{
+        margin-bottom: -15rem;
+    }
+}
+
+
+
+@media screen and (max-width: 850px) {
+    .bubby__about_section-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .bubby__about_section-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    /* Customizing feature component as per needs */
+    .bubby__about_section-feature .bubby__features-container__feature {
+        flex-direction: column;
+    }
+
+    /* Customizing feature component as per needs */
+    .bubby__about_section-feature .bubby__features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .bubby__about_section-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .bubby__about-us{
+        padding: 0rem;
+    }
+    .bubby__about-section-content{
+        padding: 3rem;
+        margin-bottom: -10rem;
+    }
+    .bubby__about__header{
+        padding: 3rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    /* Customizing feature component as per needs */
+    .bubby__about_section-container .bubby__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+   
+}

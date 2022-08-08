@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Safety-conter{
+    width: 100%;
+	margin: auto;
+	padding: 6.25rem 0;
+    margin-bottom: 10rem;
+}
+
+.Safety-conter h1{
+    text-align: center;
+    font-size: 3rem;
+	font-weight: 600;
+	color: #40196D;
+	margin-bottom: 0.5rem;
+}
+.Safety-conter p{
+	color: #000;
+	margin: 0 auto;
+	width: 50%;
+	font-size: 1.5rem;
+	line-height: 25px;
+    text-align: center;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.home .home-flex h3{
+    font-size: 2.6rem;
+	font-weight: 600;
+	color: #40196D;
+	margin-bottom: 0.5rem;
+}
+
+.home-flex{
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+.home .home-flex p{
+    color: #000;
+	/* margin: 0 auto; */
+	width: 100%;
+	font-size: 1.5rem;
+	line-height: 25px;
+}
+.home .flex-img img{
+    width: 40rem;
+}
+
+@media(max-width: 550px){
+    .home{
+        display: flex;
+        flex-direction: column;
+        margin-top: -4rem;
+    }
+    .Safety-conter p{
+        width: 100%;
+        margin-bottom: -10rem;
+    }
+}

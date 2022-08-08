@@ -1,0 +1,171 @@
+.faithmeet__footer{
+    background-image: linear-gradient(rgba(46,46,46,.7),
+    rgba(46,46,46,.9));
+    padding: 0rem;
+}
+.faithmeet__footer-hero{
+    width: 90%;
+    margin: auto;
+    margin-top: 0rem;
+}
+.faithmeet-list p{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    display: block;
+    align-items: center;
+}
+
+.faithmeet-list ul .list-text{
+    list-style:  none;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    display: block;
+}
+.faithmeet__list-one p{
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    display: block;
+}
+
+.faithmeet__list-two p{
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    display: block;
+    /* margin-bottom:-50px; */
+}
+.faithmeet__footer-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+.faithmeet-list ul{
+    display: flex;
+}
+.faithmeet-list ul .list-text{
+    margin: 0 10px;
+    color: #fff;
+}
+.faithmeet-list{
+    display: flex;
+    align-items: center;
+}
+
+.last__flex{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    /* left: 10%;
+    margin-top:0px;
+    top: -16px; */
+}
+
+.faithmeeticons{
+    width:94%;
+    margin: auto;
+    text-align: left;
+}
+
+.footer__img img{
+    width: 5rem;
+    left: 10%;
+    margin-top:0px;
+    top: -20px;
+    position: relative;
+}
+.faithmeet__footer-hero{
+    align-items:  center;
+    text-align: center;
+}
+
+.faithmeet__lasttext{
+    font-size: 12px;
+    color: #fff;
+    font-weight: bolder;
+    margin-top:0px;
+    top: -20px;
+    position: relative;
+}
+
+.splash{
+    width: 2rem;
+    margin: 0;
+    top: -20px;
+    position: relative;
+}
+
+.footer-bottom{
+    text-align: center;
+    color:#fff;
+}
+.footer-bottom p{
+    font-size: 13px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+@media screen and (max-width: 1024px){
+    .faithmeet__footer-hero{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .faithmeet-list ul li{
+        font-size: .7rem;
+    }
+    .faithmeet-list p{
+        font-size: .7rem;
+    }
+    .faithmeet__list-two p{
+        font-size: .7rem;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .faith-hero h1{
+        font-size: 2.5rem;
+    }
+    .faithmeet__footer-hero{
+        width: 100% !important;
+    }
+    .faithmeet__footer-list{
+        display: flex;
+        flex-direction: column;
+        padding: .3rem;
+    }
+    .faithmeet-list p{
+        font-size: .5rem;
+    }
+    .faithmeet__list-two p{
+        font-size: .5rem;
+    }
+    .faithmeet-list ul li{
+        margin: 0 7px;
+        font-size: .5rem;
+    }
+    .last__flex {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        /* left: 10%; */
+        margin-top: 0px;
+        top: 0px;
+    }
+    .faith-hero {
+        font-size: 2.3rem!important;
+    }
+}
+
+@media screen and (max-width: 550px){
+.faithmeet-list ul li {
+        margin: 0 2px;
+        font-size: 0.5rem;
+  }
+}

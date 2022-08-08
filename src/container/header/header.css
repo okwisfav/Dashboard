@@ -1,0 +1,88 @@
+
+*{
+    font-family: 'Quicksand', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform: capitalize;
+}
+
+body{
+    background:#f9f9f9;
+}
+
+.container{
+    display: flex;
+    min-height: 90vh;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(46,46,46,.2),
+    rgba(46,46,46,.7)),
+    url(/src/assets/hero.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+    margin-bottom: 0rem;
+}
+
+.faithmeet__word{
+    align-items: center;
+    position: relative;
+    padding-top: 4rem;
+}
+.faith-hero{
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #fff;
+}
+
+.faith__hero-text{
+    font-size: 1.25rem;
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto 3rem;
+    text-transform: capitalize;
+    text-align: center;
+    color: #fff;
+     line-height: 32px;
+     font-weight: 300px;
+}
+
+.faithmeet__icon{
+    text-align: center;
+}
+.faithmeet__icon-list a{
+    font-size: 1.1rem;
+    margin: 2rem 1rem;
+    color:#fff;
+}
+
+
+.faithmeet__phone{
+    margin: auto;
+    padding-bottom: 2rem;
+}
+.faithmeet__phone-list{
+  text-align: center;
+}
+.faithmeet__phone-list p{
+    display: inline-block;
+    align-items: center;
+    margin-left: 1rem;
+    color: #fff;
+    text-shadow: none;
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+.faithmeet__phone-list p:hover{
+    background-color: rgba(219, 9, 9, 0.747);
+}

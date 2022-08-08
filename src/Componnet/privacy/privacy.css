@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(255,255,255);
+    font-family: 'Manrope', sans-serif;
+}
+
+.bubby__privacy{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.bubby__privacy h1{
+    font-size: 3.4rem;
+    font-weight: 900;
+    color: #40196D;
+    margin-top: 10rem;
+}
+
+.bubby__privacy-text{
+    width: 80%;
+    margin: auto;
+    margin-top: 6rem;
+    text-align: left;
+   
+}
+.bubby__privacy-text p{
+    font-size: 1rem;
+    line-height: 30px;
+}
+.bubby__privacy-text h1{
+    margin-bottom: 2rem;
+    color: #40196D;
+    font-weight: bolder;
+}
+.bubby__privacy-text p:nth-last-child(1){
+    margin-top: 2.3rem;
+}
+
+.bubby__privacy-text p:nth-last-child(2){
+    margin-top: 2.3rem;
+}
+
+.bubby__privacy-text p:nth-last-child(3){
+    margin-top: 2.3rem;
+}
+
+.bubby__privacy-text h4{
+    font-size: 18px;
+    color: #40196D;
+    margin-bottom: 2rem;
+}
+.bubby__privacy-text span{
+    font-weight: 800;
+    font-style: italic;
+    font-size: 17px;
+}
+.bubby__privacy-text ul{
+        margin-left: 3rem;
+}
+.bubby__privacy-text ul span{
+    font-weight: 800;
+    font-style: italic;
+    font-size: 16px;
+}
+.bubby__privacy-text li{
+    font-size: 1rem;
+    line-height: 40px;
+}
+/* @media (max-width:768px){
+    .bubby__about-text{
+        width: 100%;
+        padding: 1rem;
+    }
+    .bubby__about-text p{
+        line-height: 30px;
+         padding: 1rem
+    }
+    .bubby__about-text h1{
+        padding: 1rem;
+    }
+    .bubby__about__text-one{
+        width: 100%;
+        margin:0rem;
+    }
+    .bubby__about__text-one h1{
+        padding: 1rem;
+    }
+    .bubby__about__text-one p{
+        line-height: 30px;
+        padding: 1rem
+    }
+} */
+

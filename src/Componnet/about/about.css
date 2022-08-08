@@ -1,0 +1,109 @@
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url('../../assets/heroabout.png');
+    background-position: top;
+    background-size: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.hero-text-container>h1{
+      color: #fff;
+      font-size: 55px;
+      font-weight: 80%;
+      margin-bottom: 1rem;
+      align-items: center;
+}
+
+.hero-text-container>h3{
+      color: #fff;
+      margin-bottom: 2rem;
+      font-size: 30px;
+     text-align: center;
+}
+
+.hero-btn-container .hero-btn-1{
+    background: linear-gradient(45deg,#fd267a,#ff6036);
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 8px 10px;
+    margin-right: 1rem;
+    font-weight: 400;
+    border-radius: 24pc;
+    transition: all 0.35s ease;
+}
+
+.hero-btn-container .hero-btn-2{
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 8px 10px;
+    margin-right: 1rem;
+    font-weight: 400;
+    border-radius: 24pc;
+    background-color: #5d5b5d;
+    transition: all 0.35s ease;
+}
+
+.about-img-container > img {
+    width: 450px;
+}
+.about-us-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.about-text-container > h3 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.about-text-container > p {
+    color: #5d5b5d;
+    margin-bottom: 1rem;
+    line-height: 30px;
+}
+.about-text-container > button {
+    background: linear-gradient(45deg,#fd267a,#ff6036);
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 8px 10px;
+    margin-right: 1rem;
+    font-weight: 400;
+    border-radius: 24pc;
+    transition: all 0.35s ease;
+}
+
+.out-team-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.out-team-section > h3 {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 1rem;
+  }
+  .out-team-section > p {
+    color: #5d5b5d;
+    margin-bottom: 2rem;
+  }
+  .team-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }

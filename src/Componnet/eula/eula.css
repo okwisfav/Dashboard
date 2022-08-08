@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(255,255,255);
+    font-family: 'Manrope', sans-serif;
+}
+
+.faithmeet__about{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.faithmeet__about h1{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #40196D;
+    margin-top: 4rem;
+}
+.faithmeet__about-text{
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+    text-align: left;
+   
+}
+.faithmeet__about-text p{
+    font-size: 1.1rem;
+    line-height: 30px;
+}
+
+.faithmeet__about-text span{
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+.faithmeet__about-text ul{
+    width: 90%;
+    margin:  auto;
+}
+.faithmeet__about-text li{
+    font-size: 14px;
+    line-height: 30px;
+}
+.faithmeet__about-text h1{
+    margin-bottom: 2rem;
+    color: #40196D;
+    font-weight: bolder;
+}
+
+.faithmeet__about-text p:nth-last-child(1){
+     margin-top: 2.3rem;
+}
+
+.faithmeet__about-text p:nth-last-child(2){
+    margin-top: 2.3rem;
+}
+.faithmeet__about-text p:nth-last-child(3){
+    margin-top: 2.3rem;
+}
+.faithmeet__about-text p:nth-last-child(4){
+    margin-top: 2.3rem;
+}
+.faithmeet__about-text p:nth-last-child(5){
+    margin-top: 2.3rem;
+}
+.faithmeet__about-text p:nth-last-child(6){
+    margin-top: 2.3rem;
+}
+.faithmeet__about__text-one{
+    width: 80%;
+    margin: auto;
+    margin-top: 6rem;
+    text-align: left;
+}
+.faithmeet__about__text-one h1{
+    margin-bottom: 3rem;
+    color: #40196D;
+    font-weight: bolder;
+}
+.faithmeet__about__text-one p{
+    font-size: 1.4rem;
+    line-height: 30px;
+}
+
+.faithmeet__bolder__text{
+    font-weight: bolder;
+}
+/* responsiveness */
+@media (max-width:768px){
+    .faithmeet__about-text{
+        width: 100%;
+        padding: 1rem;
+    }
+    .faithmeet__about-text p{
+        line-height: 30px;
+         padding: 1rem
+    }
+    .faithmeet__about-text h1{
+        padding: 1rem;
+    }
+    .faithmeet__about__text-one{
+        width: 100%;
+        margin:0rem;
+    }
+    .faithmeet__about__text-one h1{
+        padding: 1rem;
+    }
+    .faithmeet__about__text-one p{
+        line-height: 30px;
+        padding: 1rem
+    }
+}
+
